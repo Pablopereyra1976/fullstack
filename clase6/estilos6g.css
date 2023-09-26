@@ -1,0 +1,44 @@
+/*.grid{
+display: grid;
+grid-template-columns: 200px 150px 40px;
+grid-template-rows: 50px 200px ;
+}*/
+
+#grilla{
+display: grid;
+grid-template-areas: 
+"nav header header"
+"nav productos publicidad"
+"nav servicios publicidad"
+"nav footer publicidad";
+grid-template-columns: 20% auto 15%;
+grid-template-rows: 100px 300px 300px 35px;
+gap: 20px;
+}
+.border{
+border: 2px solid royalblue;
+}
+header{
+background-color:antiquewhite ;
+grid-area: header;
+}
+nav{
+background-color: rgb(218, 196, 171);
+grid-area: nav;
+}
+section#productos{
+background-color: rgb(179, 179, 212);
+grid-area: productos;
+}
+section#servicios{
+background-color: yellowgreen;
+grid-area: servicios;
+}
+footer{
+background-color: yellow;
+grid-area: pie de pagina;
+}
+aside{
+background-color: tomato;
+grid-area: publicidad;
+}

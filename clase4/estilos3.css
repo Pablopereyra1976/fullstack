@@ -1,0 +1,77 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.body{
+background-color: rgb(218, 210, 224);
+margin-left: 20px;
+}
+.titulo{
+text-transform: uppercase;
+text-align: center;
+background-color: greenyellow;
+width: 1200px;
+height: 50px;
+padding-top: 5px;
+border: black solid;
+}
+.nav{
+background-color: orange;
+margin:5px;
+width: 90%;
+height: 110px;
+list-style: none;
+padding-top: 5px;
+text-decoration: none;
+text-transform: uppercase;
+border: dotted red 10px;
+}
+.subtitulo{
+text-transform: uppercase;
+background-color: blueviolet;
+width: 90%;
+height: 70px;
+font-size: 50px;
+margin-left: 5px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+border: tomato dashed;
+margin-top: 70px;
+margin-bottom: 70px;
+}
+h2{
+text-transform: uppercase;
+font-size: x-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: burlywood;
+border:royalblue solid ;
+width: 30%;
+text-align: center;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.juego1{
+border-style: double green;
+width: 600px;
+height: 400px;
+padding-left: 40px;
+}
+.juego2{
+    border-style: double green;
+    width: 600px;
+    height: 400px;
+    padding-left: 50px;
+}
+.juego3{
+    border-style: double green;
+    width: 600px;
+    height: 400px;
+    padding-left: 50px;
+}
+.texto{
+
+background-color: rgb(187, 184, 184);
+border: solid black;
+}
